@@ -89,8 +89,7 @@ export const VoucherPrice = styled.label`
 export const PriceDiv = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  flex: 1;
+  align-self: flex-end;
 `;
 export const DetailsDiv = styled.div`
   display: flex;

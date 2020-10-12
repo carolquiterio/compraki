@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import "./index.css";
 import {
   Container,
   ServiceImg,
@@ -8,7 +9,8 @@ import {
   SubTitle,
   SectionText,
   BuyButton,
-  BuyButtonText
+  BuyButtonText,
+  Linki
 } from "./styles";
 
 import Voucher from "../../components/Voucher";
@@ -45,9 +47,9 @@ export default function Home() {
           oldPrice="200,00"
           price="160,00"
         />
-        <BuyButton href="/form-sale">
+        <Link to="/form-sale" className="link">
           <BuyButtonText>Comprar</BuyButtonText>
-        </BuyButton>
+        </Link>
       </Container>
     </>
   );
