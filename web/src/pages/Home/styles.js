@@ -80,6 +80,14 @@ export const BuyButton = styled.button`
   border-width: 0px;
   height: 2.2rem;
   margin-top: 0.8rem;
+  transition: background-color 0.2s;
+  :hover {
+    background: #9af3bf;
+    color: #fff;
+  }
+  :focus {
+    outline: none;
+  }
 `;
 
 export const BuyButtonText = styled.label`
