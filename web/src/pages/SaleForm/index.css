@@ -1,0 +1,23 @@
+.link {
+  background: #6fcf97;
+  box-shadow: 5.06527px 5.06527px 18.9948px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  border-width: 0px;
+  height: 2.2rem;
+  margin-top: 0.8rem;
+  transition: background-color 0.2s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.link:hover {
+  background: #9af3bf;
+  color: #fff;
+}
+
+.link:focus {
+  outline: none;
+}

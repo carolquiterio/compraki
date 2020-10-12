@@ -24,7 +24,6 @@ export const TitleView = styled.div`
 export const AuthorContainer = styled.div`
   align-self: center;
   border-radius: 0.625rem;
-
   height: 70vw;
   align-items: center;
   background-color: #17298b;
