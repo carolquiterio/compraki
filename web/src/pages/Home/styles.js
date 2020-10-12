@@ -4,10 +4,11 @@ import meiIMG from "../../assets/meiIMG.png";
 export const Text = styled.label``;
 
 export const Container = styled.div`
-  align-items: center;
   justify-content: center;
-  padding: 0.2rem;
+  padding: 0.3rem;
   display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 `;
 
 export const TitleView = styled.div`
@@ -20,9 +21,9 @@ export const TitleView = styled.div`
 `;
 
 export const AuthorContainer = styled.div`
-  flex: 1;
+  align-self: center;
   border-radius: 0.625rem;
-  width: 90vw;
+
   height: 70vw;
   align-items: center;
   background-color: #17298b;
@@ -55,4 +56,42 @@ export const SubTitle = styled.label`
   margin-left: 2rem;
   margin-top: 5rem;
   font-weight: 500;
+`;
+
+export const SectionText = styled.label`
+  align-self: flex-start;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 10px;
+  /* identical to box height, or 62% */
+
+  letter-spacing: -0.303916px;
+
+  color: #2d384c;
+  margin-top: 1rem;
+`;
+
+export const BuyButton = styled.button`
+  background: #6fcf97;
+  box-shadow: 5.06527px 5.06527px 18.9948px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  border-width: 0px;
+  height: 2.2rem;
+  margin-top: 0.8rem;
+`;
+
+export const BuyButtonText = styled.label`
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 10px;
+  /* identical to box height, or 62% */
+
+  text-align: center;
+  letter-spacing: -0.303916px;
+
+  color: #ffffff;
 `;
