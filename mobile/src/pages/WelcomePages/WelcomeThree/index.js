@@ -7,6 +7,7 @@ import {
   StyledImg,
   StyledButton,
   StyledButtonText,
+  StyledImgProgess,
   TextView,
 } from './styles';
 
@@ -32,8 +33,8 @@ export default function WelcomeThree(props) {
         <Title>{props.route.params.title}</Title>
         <Subtitle>{props.route.params.subtitle}</Subtitle>
       </TextView>
-      <StyledImg
-        source={require('../../../assets/welcomeimg/etapas/3.png')}></StyledImg>
+      <StyledImgProgess
+        source={require('../../../assets/welcomeimg/etapas/3.png')}></StyledImgProgess>
       <StyledButton onPress={handleButtonPress}>
         <StyledButtonText>{props.route.params.button}</StyledButtonText>
       </StyledButton>

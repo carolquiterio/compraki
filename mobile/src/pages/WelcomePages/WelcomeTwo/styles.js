@@ -6,11 +6,17 @@ export const Container = styled.View`
   align-items: center;
   justify-content: center;
   padding: 20px;
+  background: #ffffff;
 `;
 
 export const StyledImg = styled(Image)`
   transform: scale(1);
-  margin-top: 13%;
+  margin-top: 2%;
+`;
+
+export const StyledImgProgess = styled(Image)`
+  transform: scale(1);
+  margin-top: 16%;
 `;
 
 export const Title = styled.Text`
@@ -54,7 +60,7 @@ export const StyledButton = styled.TouchableOpacity`
   width: 100%;
   height: 9%;
   border-radius: 6px;
-  margin-top: 26%;
+  margin-top: 18%;
 `;
 
 export const StyledButtonText = styled.Text`

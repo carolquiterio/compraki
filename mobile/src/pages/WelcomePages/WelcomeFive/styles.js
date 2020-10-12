@@ -6,11 +6,17 @@ export const Container = styled.View`
   align-items: center;
   justify-content: center;
   padding: 20px;
+  background: #fff;
 `;
 
 export const StyledImg = styled(Image)`
+  transform: scale(1.1);
+  margin-top: 6%;
+`;
+
+export const StyledImgProgress = styled(Image)`
   transform: scale(1);
-  margin-top: 17%;
+  margin-top: 18%;
 `;
 
 export const Title = styled.Text`
@@ -27,7 +33,7 @@ export const Title = styled.Text`
   /* Cor 1 */
 
   color: #17298b;
-  margin-top: 15%;
+  margin-top: 17%;
 `;
 
 export const Subtitle = styled.Text`
@@ -54,7 +60,7 @@ export const StyledButton = styled.TouchableOpacity`
   width: 100%;
   height: 9%;
   border-radius: 6px;
-  margin-top: 27%;
+  margin-top: 21%;
 `;
 
 export const StyledButtonText = styled.Text`

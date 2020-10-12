@@ -1,14 +1,15 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, Linking} from 'react-native';
 
-import {Container, StyledText} from './styles';
+import {Container, Title, Subtitle} from './styles';
 
-const MyVouchers = () => {
+import Voucher from '../../components/Voucher';
+
+export default function MyVouchers() {
   return (
     <Container>
-      <StyledText>my vouchers</StyledText>
+      <Title>Minhas ofertas</Title>
+      <Subtitle>Ofertas ativas</Subtitle>
     </Container>
   );
-};
-
-export default MyVouchers;
+}

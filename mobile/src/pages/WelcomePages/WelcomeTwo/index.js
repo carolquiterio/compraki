@@ -8,6 +8,7 @@ import {
   StyledButton,
   StyledButtonText,
   TextView,
+  StyledImgProgess,
 } from './styles';
 
 import {useNavigation} from '@react-navigation/native';
@@ -32,8 +33,8 @@ export default function WelcomeTwo(props) {
         <Title>{props.route.params.title}</Title>
         <Subtitle>{props.route.params.subtitle}</Subtitle>
       </TextView>
-      <StyledImg
-        source={require('../../../assets/welcomeimg/etapas/2.png')}></StyledImg>
+      <StyledImgProgess
+        source={require('../../../assets/welcomeimg/etapas/2.png')}></StyledImgProgess>
       <StyledButton onPress={handleButtonPress}>
         <StyledButtonText>{props.route.params.button}</StyledButtonText>
       </StyledButton>
