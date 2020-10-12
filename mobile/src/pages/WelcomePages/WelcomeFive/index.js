@@ -16,7 +16,7 @@ export default function WelcomeFive(props) {
   const navigation = useNavigation();
 
   function handleButtonPress() {
-    navigation.navigate('TabScreen');
+    navigation.navigate('Start');
   }
 
   return (

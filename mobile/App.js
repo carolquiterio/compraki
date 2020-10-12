@@ -10,6 +10,7 @@ import Home from './src/pages/Home';
 import MyVouchers from './src/pages/MyVouchers';
 import CreateVoucher from './src/pages/CreateVoucher';
 import Partners from './src/pages/Partners';
+import Start from './src/pages/Start';
 import Welcome from './src/pages/WelcomePages/Welcome';
 import WelcomeTwo from './src/pages/WelcomePages/WelcomeTwo';
 import WelcomeFive from './src/pages/WelcomePages/WelcomeFive';
@@ -38,6 +39,8 @@ const App = () => {
           component={WelcomeThree}></Stack.Screen>
         <Stack.Screen name="WelcomeFour" component={WelcomeFour} />
         <Stack.Screen name="WelcomeFive" component={WelcomeFive} />
+        <Stack.Screen name="Start" component={Start} />
+        <Stack.Screen name="TabScreen" component={TabScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -47,37 +50,7 @@ const Tab = createBottomTabNavigator();
 
 function TabScreen() {
   return (
-    <Tab.Navigator
-      screenOptions={({route}) => ({
-        tabBarIcon: ({focused, color, size}) => {
-          let iconName;
-
-          switch (route.name) {
-            case 'Partners':
-              iconName = focused ? 'home' : 'home-outline';
-              color = focused ? '#B83B5E' : '#8a8a8a';
-              break;
-            case 'CreateVoucher':
-              iconName = focused ? 'pencil' : 'pencil-outline';
-              color = focused ? '#B83B5E' : '#8a8a8a';
-              break;
-            case 'MyVouchers':
-              iconName = focused ? 'account' : 'account-outline';
-              color = focused ? '#B83B5E' : '#8a8a8a';
-              break;
-            default:
-              iconName = 'circle';
-              color = focused ? '#B83B5E' : '#8a8a8a';
-              break;
-          }
-
-          return <MaterialIcon name={iconName} size={28} color={color} />;
-        },
-      })}
-      tabBarOptions={{
-        activeTintColor: '#B83B5E',
-        inactiveTintColor: '#8a8a8a',
-      }}>
+    <Tab.Navigator>
       <Tab.Screen
         name="MyVouchers"
         component={MyVouchers}
