@@ -2,7 +2,6 @@ import React from "react";
 
 import {
   Container,
-  TitleView,
   ServiceImg,
   AuthorContainer,
   Title,
@@ -16,6 +15,9 @@ export default function Home() {
     <Container>
       <AuthorContainer>
         <ServiceImg src={meiIMG} />
+        <br />
+        <br />
+
         <Title>Ana Claudia Silva</Title>
         <br />
         <SubTitle>

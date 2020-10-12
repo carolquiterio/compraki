@@ -6,7 +6,7 @@ export const Text = styled.label``;
 export const Container = styled.div`
   align-items: center;
   justify-content: center;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 0.2rem;
   display: flex;
 `;
 
@@ -20,6 +20,7 @@ export const TitleView = styled.div`
 `;
 
 export const AuthorContainer = styled.div`
+  flex: 1;
   border-radius: 0.625rem;
   width: 90vw;
   height: 70vw;
