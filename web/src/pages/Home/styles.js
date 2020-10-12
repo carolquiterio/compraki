@@ -81,7 +81,7 @@ export const BuyButton = styled.a`
   height: 2.2rem;
   margin-top: 0.8rem;
   transition: background-color 0.2s;
-  :hover {
+  :focus-within::after {
     background: #9af3bf;
     color: #fff;
   }
