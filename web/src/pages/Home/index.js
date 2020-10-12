@@ -18,7 +18,7 @@ import meiIMG from "../../assets/meiIMG.png";
 export default function Home() {
   return (
     <>
-      <Container>
+      <Container className="container">
         <AuthorContainer>
           <ServiceImg src={meiIMG} />
           <br />
@@ -45,7 +45,7 @@ export default function Home() {
           oldPrice="200,00"
           price="160,00"
         />
-        <BuyButton>
+        <BuyButton href="/form-sale">
           <BuyButtonText>Comprar</BuyButtonText>
         </BuyButton>
       </Container>

@@ -73,7 +73,7 @@ export const SectionText = styled.label`
   margin-top: 1rem;
 `;
 
-export const BuyButton = styled.button`
+export const BuyButton = styled.a`
   background: #6fcf97;
   box-shadow: 5.06527px 5.06527px 18.9948px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
@@ -88,6 +88,8 @@ export const BuyButton = styled.button`
   :focus {
     outline: none;
   }
+  align-items: center;
+  justify-content: center;
 `;
 
 export const BuyButtonText = styled.label`
@@ -102,4 +104,5 @@ export const BuyButtonText = styled.label`
   letter-spacing: -0.303916px;
 
   color: #ffffff;
+  text-decoration: none;
 `;
