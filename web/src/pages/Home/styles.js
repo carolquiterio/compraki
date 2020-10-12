@@ -6,6 +6,8 @@ export const Text = styled.label``;
 export const Container = styled.div`
   align-items: center;
   justify-content: center;
+  padding: 2rem 2rem 2rem 2rem;
+  display: flex;
 `;
 
 export const TitleView = styled.div`
@@ -14,7 +16,7 @@ export const TitleView = styled.div`
   width: 100vw;
   margin-top: -10px;
   margin-left: -10px;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 1rem;
 `;
 
 export const AuthorContainer = styled.div`
@@ -35,9 +37,21 @@ export const ServiceImg = styled.img`
 
 export const Title = styled.label`
   color: #f2f2f2;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Ubuntu", sans-serif;
   margin-left: 2rem;
-  margin-top: 4rem;
+  margin-top: 5rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.303916px;
+`;
+
+export const SubTitle = styled.label`
+  color: #f2f2f2;
+  font-size: 0.9rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 2rem;
+  margin-top: 5rem;
   font-weight: 500;
 `;
