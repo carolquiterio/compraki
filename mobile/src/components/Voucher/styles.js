@@ -2,10 +2,9 @@ import styled from 'styled-components';
 import {Image} from 'react-native';
 
 export const Container = styled.View`
-  border: 1px solid rgba(45, 56, 76, 0.4);
-
+  border: 1px solid #4f4f4f;
   border-radius: 10px;
-  height: 300px;
+  height: 90px;
   margin-top: 16px;
   padding: 10px;
   display: flex;
@@ -31,7 +30,7 @@ export const VoucherTitle = styled.Text`
 
   letter-spacing: -0.303916px;
 
-  color: #828282;
+  color: #4f4f4f;
 `;
 
 export const VoucherDetails = styled.Text`
@@ -46,7 +45,7 @@ export const VoucherDetails = styled.Text`
 
   /* Gray 3 */
 
-  color: #828282;
+  color: #4f4f4f;
 `;
 export const VoucherOldPrice = styled.Text`
   align-self: flex-end;
@@ -60,7 +59,7 @@ export const VoucherOldPrice = styled.Text`
   letter-spacing: -0.303916px;
   text-decoration-line: line-through;
 
-  color: rgba(45, 56, 76, 0.67);
+  color: #4f4f4f;
 `;
 
 export const VoucherPrice = styled.Text`
@@ -75,7 +74,7 @@ export const VoucherPrice = styled.Text`
   text-align: right;
   letter-spacing: -1px;
 
-  color: rgba(45, 56, 76, 0.67);
+  color: #4f4f4f;
 `;
 
 export const PriceDiv = styled.View`
@@ -83,6 +82,7 @@ export const PriceDiv = styled.View`
   flex-direction: column;
   align-self: flex-end;
 `;
+
 export const DetailsDiv = styled.View`
   display: flex;
   flex-direction: column;

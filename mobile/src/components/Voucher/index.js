@@ -25,8 +25,8 @@ export default function Voucher(props) {
 
   return (
     <Container border-color={selected ? '#6FCF97, 100%' : 'ccc'}>
-      <ServiceImg src={serviceIMG}></ServiceImg>
-      <ColumnDiv>
+      <RowDiv>
+        <ServiceImg source={serviceIMG}></ServiceImg>
         <DetailsDiv>
           <VoucherTitle>{props.title}</VoucherTitle>
 
@@ -36,11 +36,9 @@ export default function Voucher(props) {
         </DetailsDiv>
         <PriceDiv>
           <VoucherOldPrice>{props.oldPrice}</VoucherOldPrice>
-          <VoucherPrice onPress={() => handleSelect()}>
-            R${props.price}
-          </VoucherPrice>
+          <VoucherPrice onPress={handleSelect}>R${props.price}</VoucherPrice>
         </PriceDiv>
-      </ColumnDiv>
+      </RowDiv>
     </Container>
   );
 }

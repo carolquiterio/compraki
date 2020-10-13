@@ -13,7 +13,7 @@ import {
 
 import {useNavigation} from '@react-navigation/native';
 
-export default function Welcome(props) {
+export default function Learn() {
   const navigation = useNavigation();
 
   function handleButtonPress() {
@@ -27,16 +27,17 @@ export default function Welcome(props) {
 
   return (
     <Container>
-      <StyledImg
-        source={require('../../../assets/welcomeimg/1.png')}></StyledImg>
+      <StyledImg source={require('../../assets/coin.png')}></StyledImg>
       <TextView>
-        <Title>{props.route.params.title}</Title>
-        <Subtitle>{props.route.params.subtitle}</Subtitle>
+        <Title>Quero aprender mais sobre finanças</Title>
+        <Subtitle>
+          O Sebrae oferece materiais gratuitos que podem te ajudar a controlar
+          melhor as suas finanças.
+        </Subtitle>
       </TextView>
-      <StyledImgProgess
-        source={require('../../../assets/welcomeimg/etapas/1.png')}></StyledImgProgess>
+
       <StyledButton onPress={handleButtonPress}>
-        <StyledButtonText>{props.route.params.button}</StyledButtonText>
+        <StyledButtonText>SEBRAE</StyledButtonText>
       </StyledButton>
     </Container>
   );

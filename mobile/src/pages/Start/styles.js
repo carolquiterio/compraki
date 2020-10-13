@@ -39,7 +39,7 @@ export const Subtitle = styled.Text`
 
 export const OfferContainer = styled.TouchableOpacity`
   width: 100%;
-  background: #f2f2f2;
+  background: #e0dfdf;
   border-radius: 5px;
   padding: 10px;
   margin-top: 6%;
@@ -54,7 +54,7 @@ export const RowDiv = styled.View`
 
 export const OfferContainerTwo = styled.TouchableOpacity`
   width: 48%;
-  background: #f2f2f2;
+  background: #e0dfdf;
   border-radius: 5px;
   padding: 10px;
   margin-top: 4%;

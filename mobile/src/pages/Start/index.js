@@ -28,7 +28,7 @@ export default function Start() {
   }
 
   function handlePartnersPress() {
-    navigation.navigate('Partners');
+    navigation.navigate('TabScreen');
   }
 
   function handleLearnPress() {

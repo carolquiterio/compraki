@@ -7,15 +7,12 @@ export const Container = styled.View`
   justify-content: center;
   padding: 20px;
   background: #ffffff;
+  height: 100%;
 `;
 
 export const StyledImg = styled(Image)`
   transform: scale(1);
-  margin-top: 2%;
-`;
-
-export const StyledImgProgess = styled(Image)`
-  margin-top: 10%;
+  margin-top: 6%;
 `;
 
 export const Title = styled.Text`
@@ -29,26 +26,25 @@ export const Title = styled.Text`
   text-align: center;
   letter-spacing: -0.303916px;
 
-  /* Cor 1 */
+  /* Gray 2 */
 
-  color: #17298b;
+  color: #4f4f4f;
   margin-top: 12%;
 `;
 
 export const Subtitle = styled.Text`
   font-family: Ubuntu;
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 20px;
-  /* or 111% */
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  /* or 113% */
 
-  text-align: center;
   letter-spacing: -0.303916px;
 
-  /* Gray 3 */
+  /* Gray 2 */
 
-  color: #828282;
+  color: #4f4f4f;
   margin-top: 10%;
 `;
 
@@ -57,9 +53,9 @@ export const StyledButton = styled.TouchableOpacity`
   justify-content: center;
   background-color: #6fcf97;
   width: 100%;
-  height: 9%;
+  height: 10%;
   border-radius: 6px;
-  margin-top: 12%;
+  margin-top: 20%;
 `;
 
 export const StyledButtonText = styled.Text`

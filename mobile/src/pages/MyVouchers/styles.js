@@ -34,6 +34,6 @@ export const Subtitle = styled.Text`
 
   /* Gray 3 */
 
-  color: #828282;
+  color: #4f4f4f;
   margin-top: 15px;
 `;

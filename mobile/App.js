@@ -22,6 +22,7 @@ import WelcomeTwo from './src/pages/WelcomePages/WelcomeTwo';
 import WelcomeFive from './src/pages/WelcomePages/WelcomeFive';
 import WelcomeFour from './src/pages/WelcomePages/WelcomeFour';
 import WelcomeThree from './src/pages/WelcomePages/WelcomeThree';
+import Learn from './src/pages/Learn';
 
 const Stack = createStackNavigator();
 
@@ -138,6 +139,18 @@ const App = () => {
             headerStyle: {
               backgroundColor: '#17298B',
             },
+            headerTintColor: '#fff',
+          }}
+        />
+        <Stack.Screen
+          name="Learn"
+          component={Learn}
+          options={{
+            headerTitle: props => MenuFunction(),
+            headerStyle: {
+              backgroundColor: '#17298B',
+            },
+            headerTintColor: '#fff',
           }}
         />
         <Stack.Screen
@@ -148,6 +161,7 @@ const App = () => {
             headerStyle: {
               backgroundColor: '#17298B',
             },
+            headerTintColor: '#fff',
           }}
         />
       </Stack.Navigator>
