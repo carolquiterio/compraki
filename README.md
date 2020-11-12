@@ -36,7 +36,7 @@ O projeto foi desenvolvido usando as seguintes tecnologias
 - O layout está dísponível no **[Figma](https://www.figma.com/file/Ca7HJGaQtsNkcPOiJyVDzw/Compraki?node-id=98%3A3639)**;
 
 <h1 align="center">
-    <img alt="Boas vindas" src="github/BoasVindas.png" width="300px">
+    <img alt="Boas vindas" src="github/Boasvindas.png" width="300px">
     <img alt="Menu" src="github/Menu.png" width="300px"> 
     <br>
     <img alt="Minha rede" src="github/MinhaRede.png" width="300px">
